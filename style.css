@@ -6,9 +6,10 @@ body
 }
 .container
 {
+
   position: absolute;
-  top: 8px;
-  right: 16px;
+  top: 50%;
+  right: 50%;
   transform: translate(-50% , -50%);
 }
 .button
@@ -30,8 +31,23 @@ body
   
   }
 
-  .button :hover
-  {
+.button :hover
+{
     box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
                 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
-  }
+}
+a {
+  box-shadow: 0 3px 0 rgb(2, 18, 43);
+  color: white;
+  padding: 0.5em 0.7em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
