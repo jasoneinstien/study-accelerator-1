@@ -6,10 +6,12 @@ body
 }
 .container
 {
-
-  position: absolute;
-  top: 50%;
-  right: 50%;
+  position: fixed;
+  width: 600px;
+  height: 200px;
+  left: 43%;
+  top: 16%;
+  margin-left: -300px;
   transform: translate(-50% , -50%);
 }
 .button
