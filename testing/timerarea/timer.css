@@ -1,18 +1,18 @@
 #container{
-  border:1px solid #333;
+  border:1px solid lightcoral;
   border-radius :20px;
   width:400px;
   margin:20px auto;
   padding:20px;
   text-align:center;
-  background : #333;
+  background : lightcoral;
 }
 
 #timer{ 
-  color:#f00; 
+  color: white; 
   font-size:50px; 
   margin:10px auto;
-  border : 5px solid lightcoral;
+  border : 5px solid white;
   border-radius:50%;
   width:200px;
   height:200px;
@@ -40,9 +40,9 @@
 }
 
 #buttons button { 
-  background:#4da6ff; 
+  background: darkred; 
   border:none; 
-  color:#fff; 
+  color: white; 
   cursor:pointer; 
   padding:5px; 
   width:90px; 
@@ -53,17 +53,17 @@
 }
 
 #buttons button#shortBreak{
-  background : lightgreen;
+  background : darkred;
 }
 
 #buttons button#longBreak{
-  background : lightskyblue;
+  background : darkred;
 }
 
 #buttons button#stop{
-  background : palegreen;
+  background : darkred;
 }
 
 body{
-  background-color: lightblue;
+  background-color: lightcoral;
 }
